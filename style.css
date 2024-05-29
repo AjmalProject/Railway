@@ -1,0 +1,36 @@
+body{
+    background-image:url(image/train1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:dodgerblue;
+    margin-top:-10px;
+    margin-left:-10px;
+    margin-right:-10px;
+}
+.nav-1{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+li{
+    list-style: none;
+    margin: 0px 5px;
+    margin-left: -5px;
+    padding: 15px 0px;
+}
+li>a{
+    text-decoration: none;
+    color:black;
+    border-right: 1px solid black;
+    padding:16px 20px;
+}
+.nav-1 > li:hover > a{
+    background-color: aliceblue;}

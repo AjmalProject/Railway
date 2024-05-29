@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body>
+    <header>
+		<nav>
+			<h1>Employee Management System</h1>
+			<ul id="navli">
+				<li><a class="homeblack" href="index.html">HOME</a></li>
+				
+				
+				
+				
+			</ul>
+		</nav>
+	</header>
+	<div class="divider"></div>
+
+	<div class="loginbox">
+    <img src="image/avatar.jpg" class="avatar">
+        <h1>Login Here</h1>
+        <form action="employee/eprocess.php" method="POST">
+            <p>Email</p>
+            <input type="text" name="mailuid" placeholder="Enter Email Address" required="required">
+            <p>Password</p>
+            <input type="password" name="pwd" placeholder="Enter Password" required="required">
+            <input  type="submit" name="login-submit" value="Login">
+			<div class="footer ">
+  
+				<p>don't have an account?</p><h1><a href="register.html"><u>Registration</u> </a></h1>
+				
+				  
+				</div>
+           
+        </form>
+        
+    </div>
+	
+</body>
+</html>
